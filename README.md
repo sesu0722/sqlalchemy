@@ -4,7 +4,7 @@ You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii!
 
 ## Part 1: Climate Analysis and Exploration
 
-In this section, you’ll use Python and SQLAlchemy to perform basic climate analysis and data exploration of your climate database. Complete the following tasks by using SQLAlchemy ORM queries, Pandas, and Matplotlib.
+In this section, I’ll use Python and SQLAlchemy to perform basic climate analysis and data exploration of the climate database. Complete the following tasks by using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 * Use the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
 
