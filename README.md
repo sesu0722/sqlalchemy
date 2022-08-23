@@ -6,7 +6,7 @@ You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii!
 
 In this section, I’ll use Python and SQLAlchemy to perform basic climate analysis and data exploration of the climate database. Complete the following tasks by using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
-* Use the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
+* The climate analysis and data exploration are in [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files .
 
 * Use SQLAlchemy’s `create_engine` to connect to your SQLite database.
 
@@ -14,15 +14,14 @@ In this section, I’ll use Python and SQLAlchemy to perform basic climate analy
 
 * Link Python to the database by creating a SQLAlchemy session.
 
-* **Important:** Don't forget to close out your session at the end of your notebook.
 
 #### Precipitation Analysis
 
-To perform an analysis of precipitation in the area, do the following:
+To perform an analysis of precipitation in the area:
 
 * Find the most recent date in the dataset.
 
-* Using this date, retrieve the previous 12 months of precipitation data by querying the 12 previous months of data. **Note:** Do not pass in the date as a variable to your query.
+* Using this date, retrieve the previous 12 months of precipitation data by querying the 12 previous months of data. 
 
 * Select only the `date` and `prcp` values.
 
@@ -38,7 +37,7 @@ To perform an analysis of precipitation in the area, do the following:
 
 #### Station Analysis
 
-To perform an analysis of stations in the area, do the following:
+To perform an analysis of stations in the area:
 
 * Design a query to calculate the total number of stations in the dataset.
 
@@ -58,19 +57,16 @@ To perform an analysis of stations in the area, do the following:
 
     * Query the previous 12 months of temperature observation data for this station.
 
-    * Plot the results as a histogram with `bins=12`, as shown in the following image:
+    * Plot the results as a histogram with `bins=12`.
 
-    ![station-histogram](Images/station-histogram.png)
-
-* Close out your session.
 
 - - -
 
 ## Part 2: Design Your Climate App
 
-Now that you have completed your initial analysis, you’ll design a Flask API based on the queries that you have just developed.
+After completed initial analysis, I have design a Flask API based on the queries that I have just developed.
 
-Use Flask to create your routes, as follows:
+Use Flask to creat routes, as follows:
 
 * `/`
 
@@ -102,10 +98,5 @@ Use Flask to create your routes, as follows:
 
     * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates from the start date through the end date (inclusive).
 
-## Hints
-
-* You will need to join the station and measurement tables for some of the queries.
-
-* Use Flask `jsonify` to convert your API data into a valid JSON response object.
 
 
