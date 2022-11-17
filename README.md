@@ -1,4 +1,4 @@
-# Instructions
+# Background
 
 You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following sections outline the steps you must take to accomplish this task.
 
@@ -60,7 +60,7 @@ To perform an analysis of stations in the area:
 
 - - -
 
-## Part 2: Design Your Climate App
+## Part 2: Design Climate App
 
 After completed initial analysis, I have design a Flask API based on the queries that I have just developed.
 
